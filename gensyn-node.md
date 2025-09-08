@@ -58,7 +58,7 @@ You should see the Docker version information displayed.
 1. Open your terminal/command prompt
 2. Execute the following command:
    ```bash
-   docker run -p 3000:3000 spheronfdn/gensyn-rl-swarm-login:latest
+   docker run --pull always -p 3000:3000 spheronfdn/gensyn-rl-swarm-login:latest
    ```
 3. Wait for the container to start. You should see output indicating "yarn start"
 4. The container will map port 3000 from the container to your local machine
